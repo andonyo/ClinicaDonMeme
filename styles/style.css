@@ -155,26 +155,130 @@ h2 {
     width: 350px;
     height: 200px;
     margin: 0 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .tera-es {
     background: url(../img/fisio.jpg);
     background-size: cover;
+    z-index: 5;
+}
+
+.tera-es:hover > .tex-es {
+    opacity: 1;
+}
+
+.tex-es {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tex-es::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 200px;
+    z-index: -1;
 }
 
 .tera-al {
     background: url(../img/alternativa.jpg);
     background-size: cover;
+    z-index: 5;
+}
+
+.tera-al:hover > .tex-al {
+    opacity: 1;
+}
+
+.tex-al {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tex-al::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 200px;
+    z-index: -1;
 }
 
 .masajes {
     background: url(../img/masaje.jpg);
     background-size: cover;
+    z-index: 5;
+}
+
+.masajes:hover > .tex-ma {
+    opacity: 1;
+}
+
+.tex-ma {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tex-ma::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 200px;
+    z-index: -1;
 }
 
 .couching {
     background: url(../img/couching.jpg);
     background-size: cover;
+    z-index: 5;
+}
+
+.couching:hover > .tex-co {
+    opacity: 1;
+}
+
+.tex-co {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tex-co::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 200px;
+    z-index: -1;
 }
 
 .opiniones {
