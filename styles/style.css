@@ -319,3 +319,66 @@ span {
 .start {
     color: #ffca2f;
 }
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #e9e8e6;
+    padding-top: 20px;
+}
+
+.img-foo {
+    width: 25%;
+    text-align: center;
+}
+
+.img-foo img {
+    width: 50%;
+}
+
+.centro-foo {
+    width: 25%;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.info-t {
+    padding: 0 2px;
+    margin: 5px;
+    color: rgb(31, 31, 31);
+}
+
+.ico-c {
+    font-size: 25px;
+    color: rgb(31, 31, 31);
+}
+
+.fin-foo {
+    width: 25%;
+}
+
+.red {
+    padding: 10px 5px;
+    color: rgb(31, 31, 31);
+    font-size: 25px;
+}
+
+.red:nth-child(1){
+    padding-left: 0;
+}
+
+.dias {
+    margin: 0;
+    font-weight: bold;
+}
+
+.horas {
+    margin: 0 0 10px 0;
+    color: rgb(31, 31, 31);
+}
