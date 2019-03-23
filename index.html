@@ -12,26 +12,29 @@
 <body>
     <section class="encabezado">
         <header class="menu">
-            <a class="links" href="#">Servicios</a>
-            <a class="links" href="#">Promiciones</a>
+            <a class="links" href="#servicios">Servicios</a>
+            <a class="links" href="#">Promociones</a>
             <figure class="ima-logo" ><a href="#" class="logo"><img src="img/logo.png" alt=""></a></figure>
-            <a class="links" href="#">Contactanos</a>
+            <a class="links" href="pages/contact.html">Contactanos</a>
             <a class="links" href="#">Instalaciones</a>
         </header>
     </section>
     <section class="imagenes">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">
+                  <h2 class="titulos-1">Prueba nuestras Fisioterapias</h2>
+              </div>
+              <div class="swiper-slide">
+                  <h1>Conoce nuestros increibles <br>Masajes Relajantes </h1>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="titulos-2">Se evaluado por expertos</h2>
+              </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
         </div>
     </section>
-    <section class="servicios">
+    <section class="servicios" id="servicios">
         <div class="titu-ser">
             <h2>Servicios</h2>
         </div>
@@ -114,7 +117,7 @@
           spaceBetween: 30,
           centeredSlides: true,
           autoplay: {
-            delay: 2500,
+            delay: 7000,
             disableOnInteraction: false,
           },
           pagination: {
